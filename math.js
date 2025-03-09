@@ -55,5 +55,6 @@ const division = (a, b) => {
 
 const PI = 3.214;
 
-
+// // Assign everything at once with module.exports = {...}
+// // Example given below for the destructuring method;
 module.exports = {addition, subtraction, multiply, division, PI};

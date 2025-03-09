@@ -27,10 +27,26 @@
 // // Here, we know the files data coming from math.js that's why we require and destructure all by there name such as add, sub and all;
 // // If we don't know the names such as add, sub and all. Then have a look on the last one;
 
-const {addition , subtraction, multiply, division , PI} = require("./math");
 
-console.log(addition(5,3));     // 8
-console.log(subtraction(5,3));  // 2
-console.log(multiply(5,3));     // 15
-console.log(division(5,3));     // 1.6666666666666667
-console.log(PI);                // 3.214
+// const {addition , subtraction, multiply, division , PI} = require("./math");
+
+// console.log(addition(5,3));     // 8
+// console.log(subtraction(5,3));  // 2
+// console.log(multiply(5,3));     // 15
+// console.log(division(5,3));     // 1.6666666666666667
+// console.log(PI);                // 3.214
+
+
+
+//////***************************************************************************************** */
+
+// // This can be used if we have thousands of data;
+
+const matheMatics = require("./math.js");
+
+
+console.log(matheMatics.addition(5,5));         // 10
+console.log(matheMatics.subtraction(5,5));      // 0
+console.log(matheMatics.multiply(5,5));         // 25
+console.log(matheMatics.division(5,5));         // 1
+console.log(matheMatics.PI);                    // 3.214
